@@ -1,1 +1,6 @@
 include: package:solid_lints/analysis_options.yaml
+
+# I disabled this rule because it's pointless and don't add any value to readability
+linter:
+  rules:
+    sort_pub_dependencies: false
